@@ -41,4 +41,37 @@ print("el auto tiene: ",micoche.ruedascoche, " ruedas")
 micoche.arranchar()
 print(micoche.estado())
 
+
+
+""" practicas """
+
+
+""" class Moto:
     
+    # Declaración del método constructor perteneciente a la clase Moto
+    def __init__(self, color_moto, ruedas_moto, modelo_moto, luces_moto):
+        self.color_moto = color_moto
+        self.ruedas_moto = ruedas_moto
+        self.modelo_moto = modelo_moto
+        self.luces_moto = luces_moto
+        self.arrancado = True   # Estado inicial de la moto
+    
+    # Método para mostrar las propiedades de la moto
+    def mostrar_propiedades(self):
+        print("Color:", self.color_moto)
+        print("Ruedas:", self.ruedas_moto)
+        print("Modelo:", self.modelo_moto)
+        print("Luces:", self.luces_moto)
+        print("Estado:", self.mostrar_estado_moto())
+    
+    # Método para mostrar el estado de la moto
+    def mostrar_estado_moto(self):
+        if self.arrancado:
+            return "moto encendida"
+        else:
+            return "moto apagada"
+
+
+moto1 = Moto("rojo", 2, "yamaha", "encendidas")
+moto1.mostrar_propiedades()
+     """
