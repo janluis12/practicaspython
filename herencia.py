@@ -69,3 +69,5 @@ furgo1.vehiculo_frenar()
 furgo1.estado()
 
 
+
+
