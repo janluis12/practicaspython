@@ -1,4 +1,5 @@
 #de la carpeta paquetes.nombre de la funcion, que seria calculos generales y import * le decimos a python que queremos acceder a todo lo que contiene paquetes
+#desde fuera de la carpeta paquetes
 from paquetes.calculos_generales import *
 
 division(25,5)
